@@ -1,0 +1,66 @@
+apply plugin: 'com.android.application'
+apply plugin: 'org.greenrobot.greendao'
+android {
+    compileSdkVersion 25
+    buildToolsVersion '25.0.0'
+    defaultConfig {
+        applicationId "com.example.edaibu.tv_bike"
+        minSdkVersion 18
+        targetSdkVersion 25
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+    sourceSets {
+        main() {
+            jniLibs.srcDirs = ['libs']
+        }
+    }
+    signingConfigs {
+        keyConfig {
+            storeFile file("hehuoren.jks")
+            storePassword "edaibu123"
+            keyAlias "edaibu"
+            keyPassword "edaibu123"
+        }
+    }
+
+    buildTypes {
+        //开发环境
+        debug {
+            //实现自动签名
+            signingConfig signingConfigs.keyConfig
+        }
+        //生产环境
+        release {
+            signingConfig signingConfigs.keyConfig
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    greendao {
+        schemaVersion 3
+        daoPackage 'com.edaibu.ebaiduproject.dao'
+        targetGenDir 'src/main/java'
+    }
+    repositories {
+        maven {
+            url "https://repo.eclipse.org/content/repositories/paho-releases/"
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+    compile 'com.android.support:appcompat-v7:25.+'
+    compile 'com.android.support.constraint:constraint-layout:1.0.2'
+    testCompile 'junit:junit:4.12'
+    compile files('libs/BaiduLBS_Android.jar')
+    compile 'com.squareup.retrofit2:retrofit:2.2.0'
+    compile 'com.squareup.retrofit2:converter-gson:2.2.0'
+    compile 'org.javafxports:dalvik-sdk:8.60.9'
+    compile 'org.eclipse.paho:org.eclipse.paho.client.mqttv3:1.1.0'
+    compile 'org.eclipse.paho:org.eclipse.paho.android.service:1.1.1'
+}

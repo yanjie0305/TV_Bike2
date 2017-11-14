@@ -1,0 +1,236 @@
+﻿[
+    {
+        "featureType": "land",
+        "elementType": "geometry",
+        "stylers": {
+            "color": "#000000",
+            "visibility": "off"
+        }
+    },
+    {
+        "featureType": "land",
+        "elementType": "geometry.fill",
+        "stylers": {
+            "color": "#000000",
+            "visibility": "off"
+        }
+    },
+    {
+        "featureType": "land",
+        "elementType": "geometry.stroke",
+        "stylers": {
+	 "visibility": "off"
+}
+    },
+    {
+        "featureType": "water",
+        "elementType": "geometry.fill",
+        "stylers": {
+	 "visibility": "off"
+}
+    },
+    {
+        "featureType": "water",
+        "elementType": "geometry.stroke",
+        "stylers": {
+	 "visibility": "off"
+}
+    },
+    {
+        "featureType": "green",
+        "elementType": "geometry.fill",
+        "stylers": {
+	 "visibility": "off"
+}
+    },
+    {
+        "featureType": "green",
+        "elementType": "geometry.stroke",
+        "stylers": {
+	 "visibility": "off"
+}
+    },
+    {
+        "featureType": "manmade",
+        "elementType": "geometry.fill",
+        "stylers": {
+	 "visibility": "off"
+}
+    },
+    {
+        "featureType": "manmade",
+        "elementType": "geometry.stroke",
+        "stylers": {
+	 "visibility": "off"
+}
+    },
+    {
+        "featureType": "building",
+        "elementType": "geometry.fill",
+        "stylers": {
+	 "visibility": "off"
+}
+    },
+    {
+        "featureType": "building",
+        "elementType": "geometry.stroke",
+        "stylers": {
+	 "visibility": "off"
+}
+    },
+    {
+        "featureType": "highway",
+        "elementType": "geometry.fill",
+        "stylers": {
+	 "color": "#e7f7fc"
+}
+    },
+    {
+        "featureType": "highway",
+        "elementType": "geometry.stroke",
+        "stylers": {
+	"visibility": "off"
+}
+    },
+    {
+        "featureType": "highway",
+        "elementType": "labels.text.fill",
+        "stylers": {
+            "color": "#000000",
+            "visibility": "off"
+        }
+    },
+    {
+        "featureType": "highway",
+        "elementType": "labels.text.stroke",
+        "stylers": {
+	"visibility": "off"
+}
+    },
+    {
+        "featureType": "arterial",
+        "elementType": "geometry.fill",
+        "stylers": {
+	"visibility": "off"
+}
+    },
+    {
+        "featureType": "arterial",
+        "elementType": "geometry.stroke",
+        "stylers": {
+	"visibility": "off"
+}
+    },
+    {
+        "featureType": "arterial",
+        "elementType": "labels.text.fill",
+        "stylers": {
+	"visibility": "off"
+}
+    },
+    {
+        "featureType": "arterial",
+        "elementType": "labels.text.stroke",
+        "stylers": {
+	"visibility": "off"
+}
+    },
+    {
+        "featureType": "local",
+        "elementType": "geometry.fill",
+        "stylers": {
+	"visibility": "off"
+}
+    },
+    {
+        "featureType": "local",
+        "elementType": "geometry.stroke",
+        "stylers": {
+	"visibility": "off"
+}
+    },
+    {
+        "featureType": "local",
+        "elementType": "labels.text.fill",
+        "stylers": {
+	"visibility": "off"
+}
+    },
+    {
+        "featureType": "local",
+        "elementType": "labels.text.stroke",
+        "stylers": {
+	"visibility": "off"
+}
+    },
+    {
+        "featureType": "railway",
+        "elementType": "geometry.fill",
+        "stylers": {
+	"visibility": "off"
+}
+    },
+    {
+        "featureType": "railway",
+        "elementType": "geometry.stroke",
+        "stylers": {
+	"visibility": "off"
+}
+    },
+    {
+        "featureType": "subway",
+        "elementType": "geometry.fill",
+        "stylers": {
+	"visibility": "off"
+}
+    },
+    {
+        "featureType": "subway",
+        "elementType": "geometry.stroke",
+        "stylers": {
+	"visibility": "off"
+}
+    },
+    {
+        "featureType": "boundary",
+        "elementType": "geometry.fill",
+        "stylers": {
+	"visibility": "off"
+}
+    },
+    {
+        "featureType": "boundary",
+        "elementType": "geometry.stroke",
+        "stylers": {
+	"visibility": "off"
+}
+    },
+    {
+        "featureType": "poilabel",
+        "elementType": "labels.text.fill",
+        "stylers": {
+	"visibility": "off"
+}
+    },
+    {
+        "featureType": "poilabel",
+        "elementType": "labels.text.stroke",
+        "stylers": {
+	"visibility": "off"
+}
+    },
+    {
+        "featureType": "districtlabel",
+        "elementType": "labels.text.fill",
+        "stylers": {
+	"visibility": "off"
+}
+    },
+    {
+        "featureType": "districtlabel",
+        "elementType": "labels.text.stroke",
+        "stylers": {
+	"visibility": "off"
+}
+    }
+]

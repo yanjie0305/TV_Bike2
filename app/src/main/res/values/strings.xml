@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">TV_Bike</string>
+    <string name="cannot_find_this_address">无法查询到该地址</string>
+    <string name="cancel">取消</string>
+    <string name="confirm">确定</string>
+    <string name="locating">定位中</string>
+    <string name="open_gps_connect">请打开GPS连接</string>
+    <string name="exact_position_open_gps">为了获取精确位置，请先打开GPS</string>
+    <string name="setting">设置</string>
+    <string name="all">全部</string>
+    <string name="directly_manufacturer">直营</string>
+    <string name="pool">联营</string>
+    <string name="scenic">景区</string>
+    <string name="loading">数据加载中</string>
+</resources>

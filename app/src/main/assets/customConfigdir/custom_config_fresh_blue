@@ -1,0 +1,29 @@
+[
+    {"featureType": "grid",
+      "elementType": "all",
+      "stylers": {
+                "color": "#212121"
+               }
+     },
+    {
+        "featureType":"highway",
+        "elementType":"geometry.fill",
+        "stylers":{
+            "color":"#FFFC9202"
+        }
+    },
+    {
+        "featureType":"highway",
+        "elementType":"labels.text.fill",
+        "stylers":{
+            "color":"#374a46"
+        }
+    },
+     {"featureType": "highway",
+      "elementType": "labels.icon",
+      "stylers": {
+                "visibility": "off"
+               }
+     }
+
+]

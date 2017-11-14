@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorWhite">#ffffff</color>
+    <color name="transparent">#00000000</color>
+    <color name="qian_gray_two">#D4D4D4</color>
+    <color name="main_color">#00AD66</color>
+    <color name="white">#ffffff</color>
+    <color name="button_pressed">#eeeeee</color>
+    <color name="color_666666">#666666</color>
+    <color name="bike_line">#FF75FC7A</color>
+    <color name="map_backgrand">#7dabb3</color>
+</resources>
